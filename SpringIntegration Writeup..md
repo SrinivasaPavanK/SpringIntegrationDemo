@@ -1,5 +1,10 @@
 #Spring Integration:
 
+
+Using the Spring Framework encourages developers to code using interfaces and use dependency injection (DI) to provide a Plain Old Java Object (POJO) with the dependencies it needs to perform its tasks. 
+
+Spring Integration takes this concept one step further, where POJOs are wired together using a messaging paradigm and individual components may not be aware of other components in the application. 
+
 Spring Integration is a framework for implementing a dynamically configurable service integration tier. 
 The point of this tier is to orchestrate independent services into meaningful business solutions in a loosely-coupled fashion, which makes it easy to rearrange things in the face of changing business needs.
 The service integration tier sits just above the service tier.
